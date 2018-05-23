@@ -1,0 +1,11 @@
+
+<div class="container">
+    <h1>Num : <%= @show_post.id %></h1> <br>
+    <h2>Title : <%= @show_post.title %></h2> <br>
+    <h3>Author : <%= @show_post.editor %></h3> <br>
+    <h3>Content : <%= @show_post.content %></h3> <br>
+
+    <a href='/home/destroy/<%= @show_post.id%>'>[Delete]</a>
+    <a href='/home/edit/<%= @show_post.id%>'>[Edit]</a>
+    <a href='/'>[List]</a>
+</div>

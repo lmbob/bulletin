@@ -1,0 +1,19 @@
+
+<div class="container">
+    <h1>Share your thoughts!</h1>
+    <form action="/home/create" method="POST">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Title</label>
+        <input type="text" name="title" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title here">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Author</label>
+        <input type="text" name="editor" class="form-control" id="exampleInputPassword1" placeholder="editor">
+      </div>
+      <div class="form-group">
+          <label for="comment">Content</label>
+          <textarea class="form-control" name="content" rows="8" id="comment" placeholder="your story"></textarea>
+        </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+</div>
